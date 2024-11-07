@@ -1,0 +1,117 @@
+/* Inside admindashboard.module.css */
+.dashboardContainer {
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #B01E24;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  justify-content: center; /* Center all items horizontally */
+  align-items: center;
+}
+
+.centerText {
+  text-align: center;
+  flex-grow: 1; /* Makes the title expand and center-align text when there are multiple items */
+}
+
+.mainContent {
+  padding: 2rem;
+}
+
+.usersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.userFolder {
+  margin: 1rem;
+  padding: 1rem;
+  border: 3px solid #B01E24;
+  border-radius: 10px;
+}
+
+.documentsContainer {
+  text-align: center;
+}
+
+.documentsHeading {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.documentLink {
+  display: block;
+  color: #000;
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+.documentLink:hover {
+  text-decoration: underline;
+}
+
+.backButton {
+  display: block;
+  margin: 1rem auto;
+  padding: 10px 20px;
+  background-color: #CCCCCC;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  background-color: #AAAAAA;
+}
+
+.viewButton {
+  padding: 5px 10px;
+  background-color: #EFEFEF;
+  border: 2px solid #B01E24;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.viewButton:hover {
+  background-color: #CCCCCC;
+}
+
+.noDocuments {
+  text-align: center;
+  font-size: 20px;
+}
+
+.logoutButton {
+  background-color: #CCCCCC;
+  border-radius: 5px;
+  border: 2px solid white;
+  color: black;
+  padding: 5px 10px;
+}
+
+.logoutButton:hover {
+  background-color: white;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #222222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.accessDenied {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+  color: red;
+}

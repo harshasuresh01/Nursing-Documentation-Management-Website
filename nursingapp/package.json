@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.11.0",
+    "base64-arraybuffer": "^1.0.2",
+    "bcryptjs": "^2.4.3",
+    "mongodb": "^6.4.0",
+    "multer": "^1.4.5-lts.1",
+    "next": "^14.1.4",
+    "next-auth": "^4.24.6",
+    "next-connect": "^1.0.0",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.0.379",
+    "prisma": "^5.10.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-pdf": "^7.7.1",
+    "tailwind": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}

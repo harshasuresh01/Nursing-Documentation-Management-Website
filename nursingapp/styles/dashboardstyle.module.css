@@ -1,0 +1,137 @@
+.centerText {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+.addressUser {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer {
+  padding: 0px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-family: Open;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  background-color: #222222;
+}
+
+.footer_place {
+  height: 50px;
+  width: 100%;
+  font-family: Open;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  background-color: #222222;
+}
+
+.cardContainer{
+    display:flexbox;
+    min-width:50%;
+    
+}
+
+.card {
+  display: block;
+  width: 50%;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  border: 3px solid #B01E24;
+  border-radius: 10px;
+  background-color: #EFEFEF;
+  text-align: center;
+  color: black; 
+  transition: background-color 0.3s ease;
+}
+
+.cardL {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+  display: block;
+  width: 50%;
+  padding: 15px;
+  border: 3px solid #B01E24;
+  border-radius: 10px;
+  background-color: #EFEFEF;
+  text-align: center;
+  color: black; 
+  transition: background-color 0.3s ease;
+}
+
+.verticalLine {
+  display:flexbox;
+  border-left: 2px solid lightgray;
+  height: 650px;
+  width: 2px;
+  margin-top: 25px;
+}
+
+.groupCards {
+  width: 60%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card:hover {
+  background-color: #CCCCCC;
+}
+
+.cardL:hover {
+  background-color: #CCCCCC;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  width: 15%;
+}
+
+.logoGroup {
+  display: inline-block;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.name {
+  display: inline-block;
+  width: 22%;
+  color: white;
+}
+
+.header {
+  background-color: #B01E24;
+  margin: 0;
+  padding: 0;
+}
+
+.logout {
+  margin-left: 8%;
+  background-color: #CCCCCC;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: black;
+  padding: 10px;
+}
+
+.logout:hover {
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}

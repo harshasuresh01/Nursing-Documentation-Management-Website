@@ -1,0 +1,65 @@
+/* loginstyle.module.css */
+
+.loginContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.loginLabel {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inputField {
+    width: 94%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(176, 30, 36)
+    ;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(154, 26, 32);
+    cursor: pointer;
+}
+
+.centerText {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.redHeader {
+    height: 50px;
+    background-color: rgb(176, 30, 36);
+    color: white;
+    width: 100%;
+}
+
+.wkulogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+  
